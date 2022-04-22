@@ -54,8 +54,8 @@
 1. 本地创建分支并且分支
    - git checkout -b develop
 2. 将develop分支推送到远程
-   1. git push origin develop:develop
+   - git push origin develop:develop
 3. 建立本地至上游（远程）分支的链接，这样代码才能提交到远程
-   1. git branch --set-upstream-to=orgin/develop
+   - git branch --set-upstream-to=origin/develop
 4. 取消对develop分支的跟踪
-   1. git branch --unset-upstream develop
+   - git branch --unset-upstream develop
