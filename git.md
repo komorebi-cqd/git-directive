@@ -49,3 +49,13 @@
     - 解决冲突
         - git add `pathspec`
         - git commit -m ""
+
+# Git本地创建新分支，并推送到远程
+1. 本地创建分支并且分支
+   - git checkout -b develop
+2. 将develop分支推送到远程
+   1. git push origin develop:develop
+3. 建立本地至上游（远程）分支的链接，这样代码才能提交到远程
+   1. git branch --set-upstream-to=orgin/develop
+4. 取消对develop分支的跟踪
+   1. git branch --unset-upstream develop
